@@ -81,16 +81,44 @@ comment
 
 
 
-// Arrays
-let vechiles =['car','bus','scooter'];
-vechiles[3]='Tuktuke';
-vechiles.pop();
-vechiles.push('hey')
-vechiles.unshift('straw');
-console.log(vechiles.indexOf('bus'));
-conso
-console.log(vechiles);
-console.log(Array.isArray(vechiles));
+// // Arrays
+// let vechiles =['car','bus','scooter'];
+// vechiles[3]='Tuktuke';
+// vechiles.pop();
+// vechiles.push('hey')
+// vechiles.unshift('straw');
+// console.log(vechiles.indexOf('bus'));
+// conso
+// console.log(vechiles);
+// console.log(Array.isArray(vechiles));
+
+
+
+
+
+
+// Object Literals
+
+const person={
+    firstName:'Puja',
+    LastName:'Sharma',
+    age:30,
+    hobbies:['music','dancing','movies'],
+    address:{
+        street: 'devinagar',
+        city: 'Butwal',
+    }
+}
+console.log(person);
+console.log(person.LastName, person.firstName, person.address.street, person.hobbies[2]);
+
+
+
+
+
+
+
+
 
 
 
