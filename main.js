@@ -109,6 +109,7 @@ const person={
         city: 'Butwal',
     }
 }
+person.email="Puja@gmail.com";
 console.log(person);
 console.log(person.LastName, person.firstName, person.address.street, person.hobbies[2]);
 
