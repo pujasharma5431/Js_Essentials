@@ -43,14 +43,21 @@
 
 // Operators
 
-let a= 4;
-let b= 7;
-console.log(a+b);
-console.log(a-b);
-console.log(a*b);
-console.log(a/b);
-console.log(a%b)
-console.log(--a);
+// let a= 4;
+// let b= 7;
+// console.log(a+b);
+// console.log(a-b);
+// console.log(a*b);
+// console.log(a/b);
+// console.log(a%b)
+// console.log(--a);
+
+// Arithmetic Operators
+// + = Operator
+
+let x= 4;
+x *=5;
+console.log(x)
 
 
 
