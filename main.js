@@ -32,12 +32,27 @@
 // let age= " 22";
 // // console.log('My name is'+ name + 'and my age is' +  age);
 // console.log(`My name is ${name} and my age is ${age}`);
-let s='Hello, Js, JavaScript'
- console.log(s.length);
- //  [Methods so need paranthesis]
- console.log(s.toUpperCase());
- console.log(s.substring(0,4))
- console.log(s.substring(0,4).toLowerCase());
- console.log(s.split(''))
- console.log(s.split(', '))
+// let s='Hello, Js, JavaScript'
+//  console.log(s.length);
+//  //  [Methods so need paranthesis]
+//  console.log(s.toUpperCase());
+//  console.log(s.substring(0,4))
+//  console.log(s.substring(0,4).toLowerCase());
+//  console.log(s.split(''))
+//  console.log(s.split(', '))
+
+// Operators
+
+let a= 4;
+let b= 7;
+console.log(a+b);
+console.log(a-b);
+console.log(a*b);
+console.log(a/b);
+console.log(a%b)
+console.log(--a);
+
+
+
+
 
