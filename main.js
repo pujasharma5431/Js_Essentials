@@ -138,6 +138,11 @@ const todos =[
 ];
    console.log(todos[2].task)
 
+   const todoJSON = JSON.stringify(todos)
+   console.log(todoJSON);
+
+
+
 
 
 
