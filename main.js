@@ -99,22 +99,44 @@ comment
 
 // Object Literals
 
-const person={
-    firstName:'Puja',
-    LastName:'Sharma',
-    age:30,
-    hobbies:['music','dancing','movies'],
-    address:{
-        street: 'devinagar',
-        city: 'Butwal',
+// const person={
+//     firstName:'Puja',
+//     LastName:'Sharma',
+//     age:30,
+//     hobbies:['music','dancing','movies'],
+//     address:{
+//         street: 'devinagar',
+//         city: 'Butwal',
+//     }
+// }
+// person.email="Puja@gmail.com";
+// console.log(person);
+// console.log(person.LastName, person.firstName, person.address.street, person.hobbies[2]);
+
+// Objects
+
+
+const todos =[
+
+    {
+        id: 1,
+        task: 'Do hW',
+        isCompleted: true
+    },
+
+    {
+
+        id:2,
+        task: 'Complete Js crash Course',
+        isCompleted: true
+    },
+    {
+        id:3,
+        task: 'Have food',
+        isCompleted: false
     }
-}
-person.email="Puja@gmail.com";
-console.log(person);
-console.log(person.LastName, person.firstName, person.address.street, person.hobbies[2]);
-
-
-
+];
+   console.log(todos[2])
 
 
 
