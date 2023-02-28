@@ -136,7 +136,7 @@ const todos =[
         isCompleted: false
     }
 ];
-   console.log(todos[2])
+   console.log(todos[2].task)
 
 
 
