@@ -13,7 +13,7 @@
 
 const name= 'Puja Sharma';
 let age3 = 23;
-const isCool= 'True';
+const isCool= true;
 const rating = 4.7;
 const x= null;
 const y= undefined;
@@ -24,5 +24,6 @@ let z;
  console.log(typeof x);
  console.log(typeof y);
  console.log(typeof z);
+ console.log(typeof isCool);
 
 
