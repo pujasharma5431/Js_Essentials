@@ -54,12 +54,43 @@
 
 // Arithmetic Operators
 // + = Operator
+8
+// let x= 4;
+// x *=5;
+// console.log(x)
 
-let x= 4;
-x *=5;
-console.log(x)
 
 
+/*Multiline 
+comment
+*/
+// //  Arrays - variables that holds multiple values
+
+// const fruits= ['Apple','Mango','Litchi'];
+// fruits[3]='oranges';
+
+// console.log(fruits[0]);
+// fruits.push('pears');
+
+// fruits.unshift('strawberry');
+
+// fruits.pop();
+
+// console.log(fruits);
+
+
+
+
+// Arrays
+let vechiles =['car','bus','scooter'];
+vechiles[3]='Tuktuke';
+vechiles.pop();
+vechiles.push('hey')
+vechiles.unshift('straw');
+console.log(vechiles.indexOf('bus'));
+conso
+console.log(vechiles);
+console.log(Array.isArray(vechiles));
 
 
 
