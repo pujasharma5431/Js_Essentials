@@ -116,30 +116,46 @@ comment
 // Objects
 
 
-const todos =[
+// const todos =[
 
-    {
-        id: 1,
-        task: 'Do hW',
-        isCompleted: true
-    },
+//     {
+//         id: 1,
+//         task: 'Do hW',
+//         isCompleted: true
+//     },
 
-    {
+//     {
 
-        id:2,
-        task: 'Complete Js crash Course',
-        isCompleted: true
-    },
-    {
-        id:3,
-        task: 'Have food',
-        isCompleted: false
-    }
-];
-   console.log(todos[2].task)
+//         id:2,
+//         task: 'Complete Js crash Course',
+//         isCompleted: true
+//     },
+//     {
+//         id:3,
+//         task: 'Have food',
+//         isCompleted: false
+//     }
+// ];
+//    console.log(todos[2].task)
 
-   const todoJSON = JSON.stringify(todos)
-   console.log(todoJSON);
+//    const todoJSON = JSON.stringify(todos)
+//    console.log(todoJSON);
+
+// For
+for(let i = 0; i<=3; i++){
+    console.log(`Loop number is ${i}`);
+}
+
+
+// While 
+let i = 0;
+while(i<5){
+  console.log(`while loop is ${i}`)
+  i++;
+}
+
+
+
 
 
 
