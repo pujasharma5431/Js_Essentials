@@ -183,25 +183,32 @@
 
 
 
-const task={
-    "Puja":true,
-    "Sharma": false,
-    "Arjun": 22,
-    "Gautam":undefined
-}
-console.log(task['Arjun']);
+// const task={
+//     "Puja":true,
+//     "Sharma": false,
+//     "Arjun": 22,
+//     "Gautam":undefined
+// }
+// console.log(task['Arjun']);
 
-// Operator
+// // Operator
 
-let a=2;
-let b=7;
-console.log("a+b=", a+b)
-console.log("a-b=",a-b)
-console.log("a**b=",a**b)
-console.log("a%b=",a%b)
-console.log("b--=",b--)
-console.log("b++=",b++)
-console.log("++a=",++a)
+// let a=2;
+// let b=7;
+// console.log("a+b=", a+b)
+// console.log("a-b=",a-b)
+// console.log("a**b=",a**b)
+// console.log("a%b=",a%b)
+// console.log("b--=",b--)
+// console.log("b++=",b++)
+// console.log("++a=",++a)
+
+// Assingment opertators
+
+let assingment =5;
+assingment +=1;
+console.log(assingment)
+
 
 
 
