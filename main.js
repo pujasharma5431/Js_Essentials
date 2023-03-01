@@ -191,6 +191,18 @@ const task={
 }
 console.log(task['Arjun']);
 
+// Operator
+
+let a=2;
+let b=7;
+console.log("a+b=", a+b)
+console.log("a-b=",a-b)
+console.log("a**b=",a**b)
+console.log("a%b=",a%b)
+console.log("b--=",b--)
+console.log("b++=",b++)
+console.log("++a=",++a)
+
 
 
 
