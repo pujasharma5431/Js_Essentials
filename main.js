@@ -217,22 +217,33 @@
 // // console.log("comp1 == comp2 is", comp1 = comp2)
 
 // For loop
-for (let i= 0; i<2; i++){
-    console.log(i)
-}
+// for (let i= 0; i<2; i++){
+//     console.log(i)
+// }
 
-// for-in-loop
-let obj={
-    name:11,
-    age:22,
-    caste:23
-}
-for(let a in obj){
-    console.log('Marks of'+ a + " " +obj[a])
-}
+// // for-in-loop
+// let obj={
+//     name:11,
+//     age:22,
+//     caste:23
+// }
+// for(let a in obj){
+//     console.log('Marks of'+ a + " " +obj[a])
+// }
 
-// 
 
+// Functions
+
+function avg(x,y){
+    console.log("Done")
+    return (x+y)/2;
+}
+let a=2;
+let b=3;
+let c=1;
+console.log("average of a and b is", avg(a,b))
+console.log("average of b and c is", avg(b,c))
+console.log("average of a and c is", avg(a,c))
 
 
  
