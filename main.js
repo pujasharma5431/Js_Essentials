@@ -216,7 +216,10 @@
 // // let comp2=7;
 // // console.log("comp1 == comp2 is", comp1 = comp2)
 
-
+// For loop
+for (let i= 0; i<34; i++){
+    console.log(i)
+}
 
 
 
