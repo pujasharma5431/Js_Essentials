@@ -217,9 +217,22 @@
 // // console.log("comp1 == comp2 is", comp1 = comp2)
 
 // For loop
-for (let i= 0; i<34; i++){
+for (let i= 0; i<2; i++){
     console.log(i)
 }
+
+// for-in-loop
+let obj={
+    name:11,
+    age:22,
+    caste:23
+}
+for(let a in obj){
+    console.log('Marks of'+ a + " " +obj[a])
+}
+
+
+ 
 
 
 
