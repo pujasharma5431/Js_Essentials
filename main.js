@@ -234,16 +234,32 @@
 
 // Functions
 
-function avg(x,y){
-    console.log("Done")
-    return (x+y)/2;
+
+ function avg(a,b){
+    return (a+b)/2;
 }
-let a=2;
-let b=3;
-let c=1;
-console.log("average of a and b is", avg(a,b))
-console.log("average of b and c is", avg(b,c))
-console.log("average of a and c is", avg(a,c))
+
+let x=2;
+let y=4;
+let z=1;
+console.log("aveg of x and y is" + " "+ avg(x, y))
+
+
+
+// Arrow Funtion
+
+const sum=(p, q)=>{
+   return p + q; 
+
+}
+console.log(sum(x,y))
+
+
+// Call Function
+const callme=()=>{
+   console.log(" I am fine")
+}
+callme();
 
 
  
