@@ -9,3 +9,21 @@ console.log(b);
 
 let c=num.join("_")
 console.log(c);
+
+// Pop Array
+num.pop()
+console.log(num)
+
+// Push Array
+num.push(0)
+console.log(num)
+
+//  unshift Array
+num.unshift(22)
+console.log(num)
+
+// Shift Array
+num.shift()
+console.log(num)
+
+
