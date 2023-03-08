@@ -27,3 +27,6 @@ num.shift()
 console.log(num)
 
 
+
+
+
