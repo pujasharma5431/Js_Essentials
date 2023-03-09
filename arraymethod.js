@@ -26,7 +26,9 @@ console.log(num)
 num.shift()
 console.log(num)
 
-
+//  Delete Array[It's Not a method but a operator]
+delete num[0]
+console.log(num);
 
 
 
